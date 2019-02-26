@@ -4,6 +4,11 @@ import org.joml.Matrix4f;
 import org.joml.Quaternionf;
 import org.joml.Vector3f;
 
+/**
+ * Represents a location of an object in the game based on a vector representing the position, the orientation and the rotation 
+ * of the object contained in a quaternion.
+ *
+ */
 public class Location
 {
 	private Vector3f _position;
